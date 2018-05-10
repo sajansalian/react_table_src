@@ -1,0 +1,229 @@
+
+[
+{      
+      "UserId": 12345,
+      "UserName": "Amara Mahendra",
+      "UserStatus": "Online",
+      "UserImage":"Amara-Mahendra.jpg",
+      "UserEmail":"Amara.Mahendra@lisec.com",
+      "UserPhone":"2563"
+},
+ {
+	    "UserId": 8569,
+	    "UserName": "Mohsin Khan",
+	    "UserStatus": "Offline",
+      "UserImage":"Khan-Mohsin.jpg",
+      "UserEmail":"Khan.Mohsin@lisec.com",
+      "UserPhone":"2564"
+},
+{
+	    "UserId": 225566,
+	    "UserName": "Venu Yendapalli",
+	    "UserStatus": "Online",
+      "UserImage":"Yendapalli-Venu.jpg",
+      "UserEmail":"Yendapalli.Venu@lisec.com",
+      "UserPhone":"2557"
+},
+ {
+	    "UserId": 2563,
+	    "UserName": "Ashly Thomas",
+	    "UserStatus": "Online",
+      "UserImage":"Thomas-Ashly.jpg",
+      "UserEmail":"Thomas.Ashly@lisec.com",
+      "UserPhone":"2552"
+},
+ {
+	    "UserId": 89562,
+	    "UserName": "Venkatesh Srinivasan",
+	    "UserStatus": "Online",
+      "UserImage":"Srinivasan-Venkatesh.jpg",
+      "UserEmail":"Srinivasan.Venkatesh@lisec.com",
+      "UserPhone":"2554"
+},
+{
+	    "UserId": 4258,
+	    "UserName": "Sonia Singh",
+	    "UserStatus": "Online",
+      "UserImage":"Singh-Sonia.jpg",
+      "UserEmail":"Singh.Sonia@lisec.com",
+      "UserPhone":"2501"
+},
+{
+	    "UserId": 9874,
+	    "UserName": "Anbu Selvan",
+	    "UserStatus": "Offline",
+      "UserImage":"Selvan-Anbu.jpg",
+      "UserEmail":"Selvan.Anbu@lisec.com",
+      "UserPhone":"2558"
+},
+{
+	    "UserId": 569,
+	    "UserName": "Javid Roshan",
+	    "UserStatus": "Online",
+      "UserImage":"Roshan-Javid.jpg",
+      "UserEmail":"Roshan.Javid@lisec.com",
+      "UserPhone":"2556"
+},
+{
+	    "UserId": 2122,
+	    "UserName": "Mohamed Rafiq",
+	    "UserStatus": "Online",
+      "UserImage":"Rafiq-Mohamed.jpg",
+      "UserEmail":"Rafiq.Mohamed@lisec.com",
+      "UserPhone":"2555"
+},
+{
+	    "UserId": 3589,
+	    "UserName": "Asad Gilani",
+	    "UserStatus": "Online",
+      "UserImage":"Gilani-Asad.jpg",
+      "UserEmail":"Gilani.Asad@lisec.com",
+      "UserPhone":"2560"
+},
+{
+	    "UserId": 5558,
+	    "UserName": "Stefan Walter",
+	    "UserStatus": "Online",
+      "UserImage":"Walter-Stefan.jpg",
+      "UserEmail":"Walter.Stefan@lisec.com",
+      "UserPhone":"2500"
+},
+{
+	    "UserId": 2007,
+	    "UserName": "Bhoomika Bajaj",
+	    "UserStatus": "Online",
+      "UserImage":"bajaj.jpg",
+      "UserEmail":"bajaj@lisec.com",
+      "UserPhone":"2554"
+},
+{
+	    "UserId": 8721,
+	    "UserName": "Ignatius Dias",
+	    "UserStatus": "Online",
+      "UserImage":"Dias-Ignatius.jpg",
+      "UserEmail":"Dias.Ignatius@lisec.com",
+      "UserPhone":"2513"
+},
+{
+	    "UserId": 1982,
+	    "UserName": "Arockiaraj Charles",
+	    "UserStatus": "Online",
+      "UserImage":"Charles-Arockiaraj.jpg",
+      "UserEmail":"Charles.Arockiaraj@lisec.com",
+      "UserPhone":"2551"
+},
+{      
+      "UserId": 12345,
+      "UserName": "Amara Mahendra",
+      "UserStatus": "Online",
+      "UserImage":"Amara-Mahendra.jpg",
+      "UserEmail":"Amara.Mahendra@lisec.com",
+      "UserPhone":"2563"
+},
+ {
+	    "UserId": 8569,
+	    "UserName": "Mohsin Khan",
+	    "UserStatus": "Offline",
+      "UserImage":"Khan-Mohsin.jpg",
+      "UserEmail":"Khan.Mohsin@lisec.com",
+      "UserPhone":"2564"
+},
+{
+	    "UserId": 225566,
+	    "UserName": "Venu Yendapalli",
+	    "UserStatus": "Online",
+      "UserImage":"Yendapalli-Venu.jpg",
+      "UserEmail":"Yendapalli.Venu@lisec.com",
+      "UserPhone":"2557"
+},
+ {
+	    "UserId": 2563,
+	    "UserName": "Ashly Thomas",
+	    "UserStatus": "Online",
+      "UserImage":"Thomas-Ashly.jpg",
+      "UserEmail":"Thomas.Ashly@lisec.com",
+      "UserPhone":"2552"
+},
+ {
+	    "UserId": 89562,
+	    "UserName": "Venkatesh Srinivasan",
+	    "UserStatus": "Online",
+      "UserImage":"Srinivasan-Venkatesh.jpg",
+      "UserEmail":"Srinivasan.Venkatesh@lisec.com",
+      "UserPhone":"2554"
+},
+{
+	    "UserId": 4258,
+	    "UserName": "Sonia Singh",
+	    "UserStatus": "Online",
+      "UserImage":"Singh-Sonia.jpg",
+      "UserEmail":"Singh.Sonia@lisec.com",
+      "UserPhone":"2501"
+},
+{
+	    "UserId": 9874,
+	    "UserName": "Anbu Selvan",
+	    "UserStatus": "Offline",
+      "UserImage":"Selvan-Anbu.jpg",
+      "UserEmail":"Selvan.Anbu@lisec.com",
+      "UserPhone":"2558"
+},
+{
+	    "UserId": 569,
+	    "UserName": "Javid Roshan",
+	    "UserStatus": "Online",
+      "UserImage":"Roshan-Javid.jpg",
+      "UserEmail":"Roshan.Javid@lisec.com",
+      "UserPhone":"2556"
+},
+{
+	    "UserId": 2122,
+	    "UserName": "Mohamed Rafiq",
+	    "UserStatus": "Online",
+      "UserImage":"Rafiq-Mohamed.jpg",
+      "UserEmail":"Rafiq.Mohamed@lisec.com",
+      "UserPhone":"2555"
+},
+{
+	    "UserId": 3589,
+	    "UserName": "Asad Gilani",
+	    "UserStatus": "Online",
+      "UserImage":"Gilani-Asad.jpg",
+      "UserEmail":"Gilani.Asad@lisec.com",
+      "UserPhone":"2560"
+},
+{
+	    "UserId": 5558,
+	    "UserName": "Stefan Walter",
+	    "UserStatus": "Online",
+      "UserImage":"Walter-Stefan.jpg",
+      "UserEmail":"Walter.Stefan@lisec.com",
+      "UserPhone":"2500"
+},
+{
+	    "UserId": 2007,
+	    "UserName": "Bhoomika Bajaj",
+	    "UserStatus": "Online",
+      "UserImage":"bajaj.jpg",
+      "UserEmail":"bajaj@lisec.com",
+      "UserPhone":"2554"
+},
+{
+	    "UserId": 8721,
+	    "UserName": "Ignatius Dias",
+	    "UserStatus": "Online",
+      "UserImage":"Dias-Ignatius.jpg",
+      "UserEmail":"Dias.Ignatius@lisec.com",
+      "UserPhone":"2513"
+},
+{
+	    "UserId": 1982,
+	    "UserName": "Arockiaraj Charles",
+	    "UserStatus": "Online",
+      "UserImage":"Charles-Arockiaraj.jpg",
+      "UserEmail":"Charles.Arockiaraj@lisec.com",
+      "UserPhone":"2551"
+}
+
+
+]
