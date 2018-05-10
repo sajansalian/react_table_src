@@ -4,7 +4,6 @@ import SearchUser from './searchReducer';
 
 const allReducers = combineReducers({
     user : UserList,
-   // searchresult : SearchUser
 });
 
 export default allReducers;

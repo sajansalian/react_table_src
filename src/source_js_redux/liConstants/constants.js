@@ -1,4 +1,3 @@
-// ActionTypes
 export default {
     SET_INIT_DATA: 'SET_INIT_DATA',
     SORT_ROWS_BY: 'SORT_ROWS_BY',

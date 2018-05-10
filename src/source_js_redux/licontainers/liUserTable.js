@@ -1,23 +1,12 @@
 import React, { Component } from 'react';
 import '../../css/liusertable.css';
-import {
-            Table,
-            TableBody,
-            TableHeader,
-            TableHeaderColumn,
-            TableRow,
-            TableRowColumn,
-        } from 'material-ui/Table';
-
+import { Table, TableBody, TableHeader,TableHeaderColumn, TableRow, TableRowColumn} from 'material-ui/Table';
 import { List, ListItem } from 'material-ui/List';
 import { blue500 } from 'material-ui/styles/colors';
-
 import Avatar from 'material-ui/Avatar';
 import FontIcon from 'material-ui/FontIcon';
-
 import IconButton from 'material-ui/IconButton';
 import FlatButton from 'material-ui/FlatButton';
-
 import RaisedButton from 'material-ui/RaisedButton';
 import LiDialogueBox from './lidialogue';
 import IconMenu from 'material-ui/IconMenu';
@@ -66,13 +55,10 @@ class LiUserTable extends Component {
     }
 
     handleChangePage(pageOfItems) {
-        // update state with new page of items~
-        //console.log(pageOfItems);
         this.props.pagination(pageOfItems);
     }
 
     _sortRowsBy(orderBy) {
-        //console.log('insoide',orderBy);
        this.props.sortUser(orderBy,"");
     }
 
@@ -140,8 +126,6 @@ class LiUserTable extends Component {
         selectComp = (this.props.users.selectField);
         statusComp = (this.props.users.statusCombo);
         accStatusComp = (this.props.users.accStatusCombo);
-
-        //console.log(inputComp,selectComp,statusComp,'132456');
 
         for(var i=0; i <= countSearchRow; i++)
         {
@@ -224,7 +208,6 @@ class LiUserTable extends Component {
             return false;
         });        
 
-        //console.log(matchedUsersArr,'shyam132');
         if(matchedUsersArr.length > 0){
             this.props.liSetSearchData(matchedUsersArr);
         }
@@ -263,7 +246,6 @@ class LiUserTable extends Component {
     }
 
     handleSortChange(event, index, value) {
-        //console.log(value);
         this._sortRowsBy(value);
     }
 
@@ -293,18 +275,13 @@ class LiUserTable extends Component {
                     });
 
         const SearchRowComponent = ((comboID, inputID, cntr) => {
-            //console.log(this.props.users.selectField[comboID + cntr],'asdasdasdasdasdasd132132')
             return(
                     <div className="LiUserTable_searchRow" key={cntr}>
                         <span className="LiUserTable_searchSpan1" id={"type_label_" + cntr}>{(cntr > 0) ? ((this.props.users.selectedOption === 1) ? "AND" : "OR") : ""} </span>
 
                         <span className="LiUserTable_searchSpan2">
-                            <select
-                                name={comboID + cntr}
-                                id={comboID + cntr}
-                                value={this.props[comboID + cntr]}
-                                onChange={this.handleComboChange.bind(this)}>
-                                <option>---- Select ----</option>
+                            <select name={comboID + cntr} id={comboID + cntr} value={this.props[comboID + cntr]} onChange={this.handleComboChange.bind(this)}>
+                            <option>---- Select ----</option>
                                 {optionList}
                             </select>
                         </span>
@@ -497,22 +474,7 @@ class LiUserTable extends Component {
 }
 
 function mapDispatchToProps(dispatch){
-    return bindActionCreators({
-                                selectUser: LiAction.selectUser,
-                                sortUser : LiAction.sortUser,
-                                pagination: LiAction.pagination,
-                                liSetSearchData: LiAction.searchUser,
-                                liHandleOpenDelete: LiAction.liHandleOpenDelete,
-                                liHandleOpenEdit: LiAction.lihandleOpenEdit,
-                                setSlideindex: LiAction.setSlideindex,
-                                handleAddMore: LiAction.handleAddMore,
-                                handleDeleteRow: LiAction.handleDeleteRow,
-                                handleOptionChange: LiAction.handleOptionChange,
-                                handleInputChange: LiAction.handleInputChange,
-                                handleComboChange: LiAction.handleComboChange,
-                                handleStatusComboChange: LiAction.handleStatusComboChange,
-                                handleAcStatusComboChange: LiAction.handleAcStatusComboChange,
-                            }, dispatch)
+    return bindActionCreators({ selectUser: LiAction.selectUser, sortUser : LiAction.sortUser, pagination: LiAction.pagination, liSetSearchData: LiAction.searchUser,liHandleOpenDelete: LiAction.liHandleOpenDelete, liHandleOpenEdit: LiAction.lihandleOpenEdit, setSlideindex: LiAction.setSlideindex, handleAddMore: LiAction.handleAddMore, handleDeleteRow: LiAction.handleDeleteRow, handleOptionChange: LiAction.handleOptionChange, handleInputChange: LiAction.handleInputChange, handleComboChange: LiAction.handleComboChange, handleStatusComboChange: LiAction.handleStatusComboChange, handleAcStatusComboChange: LiAction.handleAcStatusComboChange,}, dispatch)
 }
   
 function mapStateToProps(state){
