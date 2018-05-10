@@ -109,18 +109,7 @@ class LiUserTable extends Component {
 
     doAdvancedSearch() {
         var countSearchRow = this.props.users.countAdvSearchComp;
-        var searchTextName = "";
-        var searchTextCode = "";
-        var searchTextStatus = "";
-        var searchTextCompany = "";
-        var searchTextDept = "";
-        var searchTextEmail  = "";
-        var searchTextExtension = "";
-        var searchTextAcStatus = "";
-        var inputComp = [];
-        var selectComp = [];
-        var statusComp = [];
-        var accStatusComp = [];
+        var searchTextName = "", searchTextCode = "",searchTextStatus = "", searchTextCompany = "", searchTextDept = "", searchTextEmail  = "", searchTextExtension = "", searchTextAcStatus = "", inputComp = [], selectComp = [],statusComp = [],accStatusComp = [];
 
         inputComp = (this.props.users.inputField);
         selectComp = (this.props.users.selectField);
